@@ -8,13 +8,13 @@
     <meta name="description" content="AngularJS (Angular) native directives for Bootstrap. Small footprint (5kB gzipped!), no 3rd party JS dependencies (jQuery, bootstrap JS) required! Widgets: Accordion, Alert, Buttons, Carousel, Collapse, Datepicker, Dropdown Toggle, Modal, Pagination, Popover, Progressbar, Rating, Tabs, Timepicker, Tooltip, Typeahead, ">
     <meta name="google-site-verification" content="7lc5HyceLDqpV_6oNHteYFfxDJH7-S3DwnJKtNUKcRg" />
 
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/fastclick/0.6.7/fastclick.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/0.6.7/fastclick.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.min.js"></script>
     <script src="ui-bootstrap-tpls-0.10.0.js"></script>
     <script src="assets/plunker.js"></script>
     <script src="assets/app.js"></script>
 
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="assets/rainbow.css"/>
     <link rel="stylesheet" href="assets/demo.css"/>
     <link rel="author" href="https://github.com/angular-ui/bootstrap/graphs/contributors">
@@ -79,11 +79,11 @@
         <div class="bs-social container">
             <ul class="bs-social-buttons">
                 <li>
-                    <iframe src="http://ghbtns.com/github-btn.html?user=angular-ui&repo=bootstrap&type=watch&count=true"
+                    <iframe src="//ghbtns.com/github-btn.html?user=angular-ui&repo=bootstrap&type=watch&count=true"
                             allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
                 </li>
                 <li>
-                    <iframe src="http://ghbtns.com/github-btn.html?user=angular-ui&repo=bootstrap&type=fork&count=true"
+                    <iframe src="//ghbtns.com/github-btn.html?user=angular-ui&repo=bootstrap&type=fork&count=true"
                             allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
                 </li>
                 <li>
@@ -589,7 +589,7 @@
   $scope.addSlide = function() {
     var newWidth = 600 + slides.length;
     slides.push({
-      image: &#x27;http://placekitten.com/&#x27; + newWidth + &#x27;/300&#x27;,
+      image: &#x27;//placekitten.com/&#x27; + newWidth + &#x27;/300&#x27;,
       text: [&#x27;More&#x27;,&#x27;Extra&#x27;,&#x27;Lots of&#x27;,&#x27;Surplus&#x27;][slides.length % 4] + &#x27; &#x27; +
         [&#x27;Cats&#x27;, &#x27;Kittys&#x27;, &#x27;Felines&#x27;, &#x27;Cutes&#x27;][slides.length % 4]
     });
@@ -611,7 +611,7 @@
   $scope.addSlide = function() {
     var newWidth = 600 + slides.length;
     slides.push({
-      image: 'http://placekitten.com/' + newWidth + '/300',
+      image: '//placekitten.com/' + newWidth + '/300',
       text: ['More','Extra','Lots of','Surplus'][slides.length % 4] + ' ' +
         ['Cats', 'Kittys', 'Felines', 'Cutes'][slides.length % 4]
     });
@@ -2362,7 +2362,7 @@ appendToBody: false
                             <div class="col-md-6 show-grid">
                                 <script type="text/ng-template" id="customTemplate.html">
   <a>
-      <img ng-src="http://upload.wikimedia.org/wikipedia/commons/thumb/{{match.model.flag}}" width="16">
+      <img ng-src="//upload.wikimedia.org/wikipedia/commons/thumb/{{match.model.flag}}" width="16">
       <span bind-html-unsafe="match.label | typeaheadHighlight:query"></span>
   </a>
 </script>
@@ -2443,7 +2443,7 @@ Minimal wait time after last character typed before typeahead kicks-in</p></li>
                                         <div plunker-content="markup">
                                             <pre ng-non-bindable><code data-language="html">&lt;script type=&quot;text/ng-template&quot; id=&quot;customTemplate.html&quot;&gt;
   &lt;a&gt;
-      &lt;img ng-src=&quot;http://upload.wikimedia.org/wikipedia/commons/thumb/{{match.model.flag}}&quot; width=&quot;16&quot;&gt;
+      &lt;img ng-src=&quot;//upload.wikimedia.org/wikipedia/commons/thumb/{{match.model.flag}}&quot; width=&quot;16&quot;&gt;
       &lt;span bind-html-unsafe=&quot;match.label | typeaheadHighlight:query&quot;&gt;&lt;/span&gt;
   &lt;/a&gt;
 &lt;/script&gt;
@@ -2473,7 +2473,7 @@ Minimal wait time after last character typed before typeahead kicks-in</p></li>
   $scope.states = [&#x27;Alabama&#x27;, &#x27;Alaska&#x27;, &#x27;Arizona&#x27;, &#x27;Arkansas&#x27;, &#x27;California&#x27;, &#x27;Colorado&#x27;, &#x27;Connecticut&#x27;, &#x27;Delaware&#x27;, &#x27;Florida&#x27;, &#x27;Georgia&#x27;, &#x27;Hawaii&#x27;, &#x27;Idaho&#x27;, &#x27;Illinois&#x27;, &#x27;Indiana&#x27;, &#x27;Iowa&#x27;, &#x27;Kansas&#x27;, &#x27;Kentucky&#x27;, &#x27;Louisiana&#x27;, &#x27;Maine&#x27;, &#x27;Maryland&#x27;, &#x27;Massachusetts&#x27;, &#x27;Michigan&#x27;, &#x27;Minnesota&#x27;, &#x27;Mississippi&#x27;, &#x27;Missouri&#x27;, &#x27;Montana&#x27;, &#x27;Nebraska&#x27;, &#x27;Nevada&#x27;, &#x27;New Hampshire&#x27;, &#x27;New Jersey&#x27;, &#x27;New Mexico&#x27;, &#x27;New York&#x27;, &#x27;North Dakota&#x27;, &#x27;North Carolina&#x27;, &#x27;Ohio&#x27;, &#x27;Oklahoma&#x27;, &#x27;Oregon&#x27;, &#x27;Pennsylvania&#x27;, &#x27;Rhode Island&#x27;, &#x27;South Carolina&#x27;, &#x27;South Dakota&#x27;, &#x27;Tennessee&#x27;, &#x27;Texas&#x27;, &#x27;Utah&#x27;, &#x27;Vermont&#x27;, &#x27;Virginia&#x27;, &#x27;Washington&#x27;, &#x27;West Virginia&#x27;, &#x27;Wisconsin&#x27;, &#x27;Wyoming&#x27;];
   // Any function returning a promise object can be used to load values asynchronously
   $scope.getLocation = function(val) {
-    return $http.get(&#x27;http://maps.googleapis.com/maps/api/geocode/json&#x27;, {
+    return $http.get(&#x27;//maps.googleapis.com/maps/api/geocode/json&#x27;, {
       params: {
         address: val,
         sensor: false
@@ -2501,7 +2501,7 @@ Minimal wait time after last character typed before typeahead kicks-in</p></li>
   $scope.states = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Dakota', 'North Carolina', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'];
   // Any function returning a promise object can be used to load values asynchronously
   $scope.getLocation = function(val) {
-    return $http.get('http://maps.googleapis.com/maps/api/geocode/json', {
+    return $http.get('//maps.googleapis.com/maps/api/geocode/json', {
       params: {
         address: val,
         sensor: false
